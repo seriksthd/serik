@@ -67,7 +67,6 @@
     background-color: black;
   }
 }
-
 @media (min-width: 481px) {
   * {
     margin: 0px;
