@@ -1,3 +1,4 @@
+import kamytov from "../../assets/icons/serik-kamytov.svg";
 export const Link = [
   {
     id: 1,
@@ -37,7 +38,12 @@ export const Link = [
     id: 6,
     url: "https://github.com/seriksthd",
     title: "GitHub",
-    image:
-      "https://avatars1.githubusercontent.com/u/9919?v=4",
+    image: "https://avatars1.githubusercontent.com/u/9919?v=4",
+  },
+  {
+    id: 7,
+    url: "https://kamytov.kesug.com/",
+    title: "kamytov.kesug",
+    image: kamytov,
   },
 ];
