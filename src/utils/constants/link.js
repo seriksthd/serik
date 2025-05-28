@@ -1,4 +1,5 @@
 import kamytov from "../../assets/icons/serik-kamytov.svg";
+import Delicious from "../../assets/icons/cafe-delicious.svg";
 export const Link = [
   {
     id: 1,
@@ -45,5 +46,11 @@ export const Link = [
     url: "https://kamytov.kesug.com/",
     title: "kamytov.kesug",
     image: kamytov,
+  },
+  {
+    id: 8,
+    url: "https://cafedelicious.wuaze.com/",
+    title: "Cafe Delicious",
+    image: Delicious,
   },
 ];
