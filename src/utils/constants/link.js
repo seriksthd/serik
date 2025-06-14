@@ -1,6 +1,3 @@
-// import kamytov from "../../assets/icons/Serik-kamytov.svg";
-// import Delicious from "../../assets/icons/Cafe-delicious.svg";
-
 export const Link = [
   {
     id: 1,
@@ -42,16 +39,16 @@ export const Link = [
     title: "GitHub",
     image: "https://avatars1.githubusercontent.com/u/9919?v=4",
   },
-  // {
-  //   id: 7,
-  //   url: "https://kamytov.kesug.com/",
-  //   title: "kamytov.kesug",
-  //   image: kamytov,
-  // },
-  // {
-  //   id: 8,
-  //   url: "https://cafedelicious.wuaze.com/",
-  //   title: "Cafe Delicious",
-  //   image: Delicious,
-  // },
+  {
+    id: 7,
+    url: "https://kamytov.kesug.com/",
+    title: "kamytov.kesug",
+    image: "src/assets/icons/Serik-kamytov.svg",
+  },
+  {
+    id: 8,
+    url: "https://cafedelicious.wuaze.com/",
+    title: "Cafe Delicious",
+    image: "src/assets/icons/Cafe-Delicious.svg",
+  },
 ];
