@@ -1,5 +1,5 @@
 import { createGlobalStyle } from "styled-components";
-import { Link } from "/src/utils/constants/link.js";
+import { Link } from "/src/utils/constants/link.jsx";
 
 export default function LinkList() {
   return (
