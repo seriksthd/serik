@@ -1,6 +1,3 @@
-import kamytovIcons from "../../assets/icons/Serik-kamytov.svg";
-import DeliciousIcons from "../../assets/icons/Cafe-delicious.svg";
-
 export const Link = [
   {
     id: 1,
@@ -46,12 +43,12 @@ export const Link = [
     id: 7,
     url: "https://kamytov.kesug.com/",
     title: "kamytov.kesug",
-    image: kamytovIcons,
+    image: "https://kamytov.kesug.com/assets/Serik-Kamytov.svg",
   },
   {
     id: 8,
-    url: "https://cafedelicious.wuaze.com/",
+    url: "https://cafe-delicious.wuaze.com/",
     title: "Cafe Delicious",
-    image: DeliciousIcons,
+    image: "https://cafe-delicious.wuaze.com/assets/Cafe-Delicious-logo.svg",
   },
 ];

@@ -1,4 +1,4 @@
-import SerikKamytov from "../assets/icons/Serik-kamytov.svg";
+import SerikKamytov from "../assets/icons/Serikkamytov.svg";
 export const Icons = {
   SerikKamytov,
 };
