@@ -43,7 +43,7 @@ export const Link = [
     id: 7,
     url: "https://kamytov.kesug.com/",
     title: "kamytov.kesug",
-    image: "https://kamytov.kesug.com/assets/Serik-Kamytov.svg",
+    image: "https://kamytov.kesug.com/assets/Serik-Kamytov-Logo.png",
   },
   {
     id: 8,
