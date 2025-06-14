@@ -43,12 +43,12 @@ export const Link = [
     id: 7,
     url: "https://kamytov.kesug.com/",
     title: "kamytov.kesug",
-    image: "src/assets/icons/Serik-kamytov.svg",
+    image: "../../assets/icons/Serik-kamytov.svg",
   },
   {
     id: 8,
     url: "https://cafedelicious.wuaze.com/",
     title: "Cafe Delicious",
-    image: "src/assets/icons/Cafe-Delicious.svg",
+    image: "../../assets/icons/Cafe-delicious.svg",
   },
 ];
