@@ -1,5 +1,5 @@
 import { createGlobalStyle } from "styled-components";
-import { Link } from "../utils/constants/link";
+import { Link } from "/vercel/path0/src/utils/constants/link.js";
 
 export default function LinkList() {
   return (

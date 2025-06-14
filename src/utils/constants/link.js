@@ -1,5 +1,6 @@
-import kamytov from "../../assets/icons/serik-kamytov.svg";
-import Delicious from "../../assets/icons/cafe-delicious.svg";
+import kamytov from "../../assets/icons/Serik-kamytov.svg";
+import Delicious from "../../assets/icons/Cafe-delicious.svg";
+
 export const Link = [
   {
     id: 1,
