@@ -44,7 +44,7 @@ export const Link = [
   {
     id: 7,
     url: "https://kamytov.kesug.com/",
-    title: "kamytov.kesug",
+    title: "kamytov",
     image: kamytov,
   },
   {

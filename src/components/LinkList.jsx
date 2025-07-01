@@ -1,4 +1,3 @@
-import React from "react";
 import { createGlobalStyle } from "styled-components";
 import { Link } from "../utils/constants/link";
 
@@ -7,10 +6,10 @@ export default function LinkList() {
     <div>
       <StyleGlobal />
       {Link.map((item) => (
-        <div>
-          <div class="div">
+        <div key={item.id}>
+          <div className="div">
             <a className="link" href={item.url}>
-              <img class="img2" src={item.image} />
+              <img className="img2" src={item.image} />
               {item.title}
             </a>
             <a className="link" href={item.url}>
@@ -24,68 +23,8 @@ export default function LinkList() {
   );
 }
 const StyleGlobal = createGlobalStyle`
-  @media (max-width: 480px) {
-  .headerDiv {
-    background-color: #3b3b3b;
-    color: #ffff;
-    margin: 0px;
-    display: flex;
-    align-items: center;
-    height: 50px;
-    padding-left: 10px;
-    .img {
-      width: 25px;
-    }
-  }
   .aza {
-    width: 440px;
-  }
-  .div {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-  }
-  .link {
-    text-decoration: none;
-    color: #ffff;
-    font-size: 2rem;
-    display: flex;
-    align-items: center;
-    margin: 20px 0 20px 10px;
-  }
-  .btnOpen {
-    right: 50px;
-    background-color: red;
-    color: #ffff;
-    padding: 15px;
-    border-radius: 15px;
-    border: 0px;
-    margin-right: 20px;
-  }
-  .img2 {
-    width: 50px;
-    margin-right: 20px;
-  }
-  .continer {
-    width: 440px;
-    margin: 0 auto;
-    background-color: black;
-  }
-}
-  .headerDiv {
-    background-color: #3b3b3b;
-    color: #ffff;
-    margin: 0px;
-    display: flex;
-    align-items: center;
-    height: 50px;
-    padding-left: 10px;
-    .img {
-      width: 25px;
-    }
-  }
-  .aza {
-    width: 480px;
+    width: 100%;
   }
   .div {
     display: flex;
@@ -124,10 +63,19 @@ const StyleGlobal = createGlobalStyle`
     background-repeat: no-repeat;
   }
   .continer {
-    width: 480px;
+    width: 100%;
+    max-width: 480px;
     margin: 0 auto;
     background-color: black;
   }
-
-
+    @media (max-width: 480px) {
+  .link {
+    text-decoration: none;
+    color: #ffff;
+    font-size: 1.5;
+    display: flex;
+    align-items: center;
+    margin: 20px 0 20px 10px;
+  }
+  }
 `;
