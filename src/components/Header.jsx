@@ -1,5 +1,5 @@
 import { createGlobalStyle } from "styled-components";
-import imageHeader from "/src/assets/image/Снимок экрана 2024-11-21 000731-Photoroom.png";
+import imageHeader from "/src/assets/image/myPhoto.jpg";
 export default function Header() {
   return (
     <div>
